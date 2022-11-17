@@ -1,0 +1,18 @@
+export const COLORS = {
+  light_text: '#000',
+  dark_text: '#fff',
+  dark: '#18191a',
+  overlay: 'rgba(0,0,0,0.7)',
+  light_background: '#fff',
+  dark_background: '#121212',
+  backdrop: '#40464e',
+  light_small_text: '#222222',
+  dark_small_text: '#d4d4d4',
+  jungle_green: '#2a9d8f',
+  light_blue: '#81b0ff',
+  gray_white: '#f4f3f4',
+  gray_black: '#767577',
+  main: '#e76f51',
+  sub_main: '#e0ac9f',
+  transparent: 'transparent',
+};

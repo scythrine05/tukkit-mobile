@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "547613666584",
+    "project_id": "tukkit-f6e85",
+    "storage_bucket": "tukkit-f6e85.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547613666584:android:c01afe4ffea207bd04826d",
+        "android_client_info": {
+          "package_name": "com.tukkit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547613666584-tcquaejf5md59i6oro83thup838rvgaj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWERb9Uk6coM0xYyS3_Hf73UB3uxgxAcc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547613666584-tcquaejf5md59i6oro83thup838rvgaj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

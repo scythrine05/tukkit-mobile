@@ -1,0 +1,89 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Marcellus-Regular.ttf",
+      "sha1": "a83ca5e1e8dbf8316177ff5f2f360ea3e1708981"
+    },
+    {
+      "path": "assets/fonts/NotoSansDisplay-Italic-VariableFont_wdth,wght.ttf",
+      "sha1": "6eecfbf7b73c63a24dc9709a4ddf150f58f82e0b"
+    },
+    {
+      "path": "assets/fonts/NotoSansDisplay-VariableFont_wdth,wght.ttf",
+      "sha1": "c9a3ff3638986d6fd2c121b8b08f6435821c2704"
+    },
+    {
+      "path": "assets/fonts/static/NotoSansDisplay-Black.ttf",
+      "sha1": "7d4cc59f53c331a8fee325cdb2527442df01718c"
+    },
+    {
+      "path": "assets/fonts/static/NotoSansDisplay-BlackItalic.ttf",
+      "sha1": "ca5aa403c97229eb6db010fb3aa0bb3666ebf421"
+    },
+    {
+      "path": "assets/fonts/static/NotoSansDisplay-Bold.ttf",
+      "sha1": "981b74a8bd7fec1d4fc482ebd6f6b2f7fcf615c0"
+    },
+    {
+      "path": "assets/fonts/static/NotoSansDisplay-BoldItalic.ttf",
+      "sha1": "0f12227462e242ce9fa3221117b4029c3e971154"
+    },
+    {
+      "path": "assets/fonts/static/NotoSansDisplay-ExtraBold.ttf",
+      "sha1": "74c71ae0465cc4307c3fbad528c6b835700d6ba1"
+    },
+    {
+      "path": "assets/fonts/static/NotoSansDisplay-ExtraBoldItalic.ttf",
+      "sha1": "9e0ed2f6ca4df669400c22776f405c16d48aea80"
+    },
+    {
+      "path": "assets/fonts/static/NotoSansDisplay-ExtraLight.ttf",
+      "sha1": "3efc7bdf7722d689274ee5585be26bbb3b7fb4a4"
+    },
+    {
+      "path": "assets/fonts/static/NotoSansDisplay-ExtraLightItalic.ttf",
+      "sha1": "24f9fb275d0dd7be77394db1b179b8c106ef8d29"
+    },
+    {
+      "path": "assets/fonts/static/NotoSansDisplay-Italic.ttf",
+      "sha1": "de1656e89acfa8cb6679ee5d91dd5cd767abcfc3"
+    },
+    {
+      "path": "assets/fonts/static/NotoSansDisplay-Light.ttf",
+      "sha1": "1900a33935f255dae6ab945808ad4988bc9158fa"
+    },
+    {
+      "path": "assets/fonts/static/NotoSansDisplay-LightItalic.ttf",
+      "sha1": "890f5efd09354072f1a0dfb7bad57d6814f9b2a7"
+    },
+    {
+      "path": "assets/fonts/static/NotoSansDisplay-Medium.ttf",
+      "sha1": "32885ae324ed461de06dba8677fe01df3fc9dc6c"
+    },
+    {
+      "path": "assets/fonts/static/NotoSansDisplay-MediumItalic.ttf",
+      "sha1": "3ec1eca7baf393ae69d25c0a5365db48b3cb0dfc"
+    },
+    {
+      "path": "assets/fonts/static/NotoSansDisplay-Regular.ttf",
+      "sha1": "2b74c6e76f14b98b6ee4c4775482c3fbaa7ad0c8"
+    },
+    {
+      "path": "assets/fonts/static/NotoSansDisplay-SemiBold.ttf",
+      "sha1": "86e708479b5c2992543961e399cd7c37011d30a8"
+    },
+    {
+      "path": "assets/fonts/static/NotoSansDisplay-SemiBoldItalic.ttf",
+      "sha1": "c896fc3551d186e3c78abb28f8e1c920492dbf3b"
+    },
+    {
+      "path": "assets/fonts/static/NotoSansDisplay-Thin.ttf",
+      "sha1": "d279a59f6a3e7b55e8c8ac6eb43a1dd9862e4ebb"
+    },
+    {
+      "path": "assets/fonts/static/NotoSansDisplay-ThinItalic.ttf",
+      "sha1": "d7db2b493e11fc49a72a7b56d0e62d79167ff678"
+    }
+  ]
+}
