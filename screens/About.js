@@ -13,14 +13,14 @@ const About = () => {
       title: 'Terms and Conditions',
       onPress: () =>
         navigation.navigate('WebView', {
-          url: 'https://en.wikipedia.org/wiki/Terms_of_service',
+          url: 'https://www.tukkit.com/assets/docs/terms-and-conditions.html',
         }),
     },
     {
-      title: 'Feedsar Private Limited',
+      title: 'Privacy Policy',
       onPress: () =>
         navigation.navigate('WebView', {
-          url: 'https://www.zaubacorp.com/company/FEEDSAR-PRIVATE-LIMITED/U72900JH2021PTC016447',
+          url: 'https://www.tukkit.com/assets/docs/privacy-policy.html',
         }),
     },
   ];

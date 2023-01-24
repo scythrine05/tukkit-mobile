@@ -5,12 +5,13 @@ import Lottie from 'lottie-react-native';
 
 //Components
 import Post from '../components/ui/Card/Post';
+import More from '../components/ui/Card/More';
 
 //Constants
 import {DIMENSIONS, FONT} from '../constants/Constants';
 
 _renderItem = ({item, index}) => {
-  return item.type === 'post' ? <Post item={item} index={index} /> : null;
+  return item.type === 'post' ? <Post item={item} index={index} /> : <More />;
 };
 
 const Cards = ({data}) => {

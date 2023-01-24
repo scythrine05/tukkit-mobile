@@ -5,7 +5,8 @@ import PagerView from 'react-native-pager-view';
 //Screens
 import News from './News';
 import Options from './Options';
-import Cover from './Cover';
+import Recents from './Recents';
+
 export default function Pager() {
   return (
     <>
@@ -15,9 +16,6 @@ export default function Pager() {
         </View>
         <View>
           <News />
-        </View>
-        <View>
-          <Cover />
         </View>
       </PagerView>
     </>

@@ -67,7 +67,7 @@ const Options = () => {
     {
       icon: <SHAREAPP size={22} />,
       title: 'Share this app',
-      onPress: () => share('https://tukkit.com'),
+      onPress: () => share('Stay Updated with Tukkit. https://tukkit.com'),
     },
   ];
 

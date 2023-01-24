@@ -13,6 +13,6 @@ export const COLORS = {
   gray_white: '#f4f3f4',
   gray_black: '#767577',
   main: '#e76f51',
-  sub_main: '#e0ac9f',
+  sub_main: '#f29b85',
   transparent: 'transparent',
 };

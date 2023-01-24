@@ -36,41 +36,7 @@ export default function Post({index, item}) {
 
   return (
     <Container>
-      <Image
-        style={styles.display}
-        source={{
-          uri: item.display,
-        }}
-      />
-      <View style={styles.main}>
-        <View style={styles.content}>
-          <View>
-            <Text size={19} family={FONT.regular} height>
-              {item.title}
-            </Text>
-          </View>
-          <View style={styles.paragraph}>
-            <Text size={15} family={FONT.light} height>
-              {item.description}
-            </Text>
-          </View>
-        </View>
-        <View style={styles.bottom}>
-          <Pressable onPress={() => shotAndShare()} style={styles.pressable}>
-            <SHARE size={25} />
-          </Pressable>
-          <View style={styles.source}>
-            <Text size={12} family={FONT.medium} color={COLORS.main}>
-              {item.source}
-            </Text>
-          </View>
-          <Pressable
-            onPress={() => navigation.navigate('WebView', {url: item.url})}
-            style={styles.pressable}>
-            <ARROW_FORWARD size={25} />
-          </Pressable>
-        </View>
-      </View>
+      <Text>More</Text>
     </Container>
   );
 }

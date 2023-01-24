@@ -27,7 +27,7 @@ const Switch_Component = ({initState, onValueChange}) => {
       disabled={false}
       circleSize={20}
       barHeight={20}
-      backgroundActive={COLORS.sub_main}
+      backgroundActive={COLORS.gray_white}
       backgroundInactive={COLORS.gray_black}
       circleActiveColor={COLORS.main}
       circleInActiveColor={COLORS.gray_white}
@@ -36,7 +36,7 @@ const Switch_Component = ({initState, onValueChange}) => {
       innerCircleStyle={{
         alignItems: 'center',
         justifyContent: 'center',
-        borderColor: isEnabled ? COLORS.sub_main : COLORS.gray_black,
+        borderColor: isEnabled ? COLORS.gray_white : COLORS.gray_black,
       }}
       renderActiveText={false}
       renderInActiveText={false}
