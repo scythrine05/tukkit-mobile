@@ -1,6 +1,6 @@
 import {THEME_CHANGE} from '../../constants/Constants';
 const initialState = {
-  mode: 'dark',
+  mode: 'light',
 };
 
 const themeReducer = (state = initialState, action) => {

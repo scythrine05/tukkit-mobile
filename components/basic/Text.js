@@ -16,7 +16,9 @@ const Text_Component = ({size, style, family, color, children, height}) => {
         fontFamily: family,
         fontSize: size,
         color: color
-          ? color
+          ? theme.mode == 'light'
+            ? color.light
+            : color.dark
           : theme.mode == 'light'
           ? COLORS.light_text
           : COLORS.dark_text,

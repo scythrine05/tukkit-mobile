@@ -23,6 +23,7 @@ import {useNavigation} from '@react-navigation/native';
 //Components
 import Text from '../../basic/Text';
 import Container from '../../ui/Container';
+import ImageViewer from '../../ui/ImageViewer';
 
 //Utils
 import {shotAndShare} from '../../../utils/view_shot';
@@ -30,27 +31,45 @@ import {shotAndShare} from '../../../utils/view_shot';
 const defaultImage = require('../../../assets/images/loader.png');
 
 export default function Post({index, item}) {
-  const navigation = useNavigation();
+  const [imgView, setImgView] = React.useState(false);
 
+  const navigation = useNavigation();
   const theme = useSelector(state => state.theme);
 
   return (
     <Container>
-      <Image
-        style={styles.display}
-        source={{
-          uri: item.display,
-        }}
+      <ImageViewer
+        image={{uri: item.display}}
+        visible={imgView}
+        setVisible={() => setImgView(false)}
+        footer={item.title}
       />
+      <Pressable style={styles.display} onPress={() => setImgView(true)}>
+        <View style={styles.container}>
+          <Image
+            style={styles.container}
+            source={{
+              uri: item.display,
+            }}
+          />
+        </View>
+      </Pressable>
       <View style={styles.main}>
         <View style={styles.content}>
           <View>
-            <Text size={19} family={FONT.regular} height>
+            <Text size={18} family={FONT.regular} height>
               {item.title}
             </Text>
           </View>
           <View style={styles.paragraph}>
-            <Text size={15} family={FONT.light} height>
+            <Text
+              size={15}
+              family={FONT.light}
+              color={{
+                dark: COLORS.dark_small_text,
+                light: COLORS.light_small_text,
+              }}
+              height>
               {item.description}
             </Text>
           </View>
@@ -60,7 +79,10 @@ export default function Post({index, item}) {
             <SHARE size={25} />
           </Pressable>
           <View style={styles.source}>
-            <Text size={12} family={FONT.medium} color={COLORS.main}>
+            <Text
+              size={12}
+              family={FONT.medium}
+              color={{dark: COLORS.main, light: COLORS.main}}>
               {item.source}
             </Text>
           </View>
@@ -83,7 +105,7 @@ const styles = StyleSheet.create({
     height: DIMENSIONS.height,
   },
   display: {
-    flex: 3,
+    flex: 2.2,
   },
   content: {
     flex: 1,
