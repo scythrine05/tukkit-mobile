@@ -34,7 +34,6 @@ export default function Post({index, item}) {
   const [imgView, setImgView] = React.useState(false);
 
   const navigation = useNavigation();
-  const theme = useSelector(state => state.theme);
 
   return (
     <Container>
@@ -80,9 +79,12 @@ export default function Post({index, item}) {
           </Pressable>
           <View style={styles.source}>
             <Text
-              size={12}
-              family={FONT.medium}
-              color={{dark: COLORS.main, light: COLORS.main}}>
+              size={11}
+              family={FONT.light}
+              color={{
+                dark: COLORS.main,
+                light: COLORS.main,
+              }}>
               {item.source}
             </Text>
           </View>

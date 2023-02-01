@@ -20,7 +20,7 @@ export default function Loader() {
         style={styles.animation}
       />
       <Text family={FONT.regular} style={styles.text} size={22}>
-        Loading Top News
+        Loading Latest News
       </Text>
     </Container>
   );
