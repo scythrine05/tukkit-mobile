@@ -56,13 +56,13 @@ export default function Post({index, item}) {
       <View style={styles.main}>
         <View style={styles.content}>
           <View>
-            <Text size={18} family={FONT.regular} height>
+            <Text size={17} family={FONT.semi_bold} height>
               {item.title}
             </Text>
           </View>
           <View style={styles.paragraph}>
             <Text
-              size={15}
+              size={14.5}
               family={FONT.light}
               color={{
                 dark: COLORS.dark_small_text,
@@ -80,7 +80,7 @@ export default function Post({index, item}) {
           <View style={styles.source}>
             <Text
               size={11}
-              family={FONT.light}
+              family={FONT.medium}
               color={{
                 dark: COLORS.main,
                 light: COLORS.main,
@@ -122,7 +122,7 @@ const styles = StyleSheet.create({
     padding: 20,
   },
   paragraph: {
-    marginTop: 10,
+    marginTop: 8,
   },
   bottom: {
     paddingVertical: 25,

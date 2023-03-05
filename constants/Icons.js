@@ -67,6 +67,21 @@ export const ARROW_FORWARD_SIMPLE = ({color, size, style}) => {
   );
 };
 
+export const ARROW_UPWARD_SIMPLE = ({color, size, style}) => {
+  const theme = useSelector(state => state.theme);
+  const default_color =
+    theme.mode == 'light' ? COLORS.light_small_text : COLORS.dark_small_text;
+
+  return (
+    <MaterialIcons
+      name="arrow-upward"
+      size={size}
+      color={color ? color : default_color}
+      style={style}
+    />
+  );
+};
+
 export const DONE = ({color, size, style}) => {
   const theme = useSelector(state => state.theme);
   const default_color =

@@ -2,6 +2,7 @@ import {
   GET_POST,
   GET_POST_FAIL,
   GET_POST_SUCCESS,
+  LISTEN_POST,
 } from '../../constants/Constants.js';
 import firestore from '@react-native-firebase/firestore';
 
@@ -25,6 +26,13 @@ export const getPostsFail = error => {
   };
 };
 
+export const listenPost = count => {
+  return {
+    type: LISTEN_POST,
+    payload: count,
+  };
+};
+
 export const requestPosts = () => {
   return async dispatch => {
     dispatch(getPosts());
@@ -43,3 +51,24 @@ export const requestPosts = () => {
     }
   };
 };
+
+export const postListner = () => {
+  return (dispatch, getState) => {
+    try {
+      firestore()
+        .collection('posts')
+        .where('created', '>', new Date())
+        .onSnapshot(querySnapshot => {
+          querySnapshot.docChanges().forEach(change => {
+            console.log(getState().posts.added);
+            if (change.type === 'added') {
+              dispatch(listenPost(getState().posts.added + 1));
+            }
+          });
+        });
+    } catch (error) {
+      dispatch(getPostsFail(error));
+    }
+  };
+};
++
